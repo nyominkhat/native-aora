@@ -3,10 +3,12 @@ import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 
+import "react-native-url-polyfill/auto";
+
 import { images } from "@/constants";
 import { router } from "expo-router";
 
-import Button from "@/components/Button";
+import Button from "@/components/button";
 
 const App = () => {
   const handlePress = () => {
