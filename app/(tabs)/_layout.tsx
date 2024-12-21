@@ -19,7 +19,7 @@ interface TabIconProps {
 
 const TabIcon = ({ color, focused, icon, name }: TabIconProps) => {
   return (
-    <View className='items-center justify-center gap-2'>
+    <View className='items-center justify-center w-[200px] gap-2'>
       <Image
         source={icon}
         resizeMode='contain'
